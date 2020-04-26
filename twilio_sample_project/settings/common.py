@@ -115,7 +115,7 @@ WSGI_APPLICATION = 'twilio_sample_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'call_tracking'
+        'NAME': 'd2u5ebdu6bj7ot'
     }
 }
 
