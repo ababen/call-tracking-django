@@ -114,7 +114,7 @@ WSGI_APPLICATION = 'twilio_sample_project.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'postgresql_psycopg2',
         'NAME': os.environ['DATABASE_NAME'],
         'HOST': os.environ['DATABASE_HOST'],
         'USER': os.environ['DATABASE_USER'],
